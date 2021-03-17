@@ -35,15 +35,18 @@ img {
 
 #why {
   background-color: #f9f9f9;
-  margin-top: 80px;
+  margin-top: 50px;
+  padding: 10px;
 }
 
 #lezioni {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 10px;
 }
 
-#why {
-  margin-top: 100px;
+#steps{
+  margin-top: 50px;
+  padding: 10px;
 }
 
 #why img {
