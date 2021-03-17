@@ -1,0 +1,21 @@
+.debug [class*="col-"]{
+  background-color: lightgrey;
+  border: 1px solid black;
+  min-height: 30px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+
+h1, h3 {
+  font-size: 2em;
+}
+
+img {
+  height: 200px;
+}
