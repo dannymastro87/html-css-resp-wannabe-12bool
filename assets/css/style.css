@@ -1,21 +1,66 @@
-.debug [class*="col-"]{
+/* .debug [class*="col-"]{
   background-color: lightgrey;
   border: 1px solid black;
   min-height: 30px;
   margin-bottom: 20px;
-}
+} */
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 140px;
 }
 
-h1, h3 {
+h1 {
   font-size: 2em;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 20px 0;
+}
+p {
+  font-size: 1em;
+  text-align: center;
 }
 
 img {
   height: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+#why {
+  background-color: #f9f9f9;
+  margin-top: 80px;
+}
+
+#lezioni {
+  margin-top: 100px;
+}
+
+#why {
+  margin-top: 100px;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+@media screen and (max-width: 420px) {
+  #steps {
+    background-color: #f9f9f9;
+  }
+  #why {
+    background-color: #f2f2cd;
+  }
+}
+
+
+
+
